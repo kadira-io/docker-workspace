@@ -1,0 +1,11 @@
+#
+## Docker Compose Syntax Version
+#
+version: '2'
+
+#
+## Service Declerations
+#
+services:
+  mongo:
+    build: ./mongo
